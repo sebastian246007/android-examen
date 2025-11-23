@@ -41,7 +41,7 @@ fun CartView(
     val items = vm.cartList
 
     val subtotal = items.sumOf { it.price }
-    val total = items.sumOf { it.discountedPrice }
+    val total = items.sumOf { it.price }
 
     Scaffold(
         topBar = {

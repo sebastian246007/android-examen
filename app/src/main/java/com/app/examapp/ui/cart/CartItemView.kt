@@ -82,7 +82,7 @@ fun CartItemView(
                 Spacer(modifier = Modifier.height(8.dp))
 
                 Text(
-                    text = "${item.discountedPrice} Bs",
+                    text = "${item.price} Bs",
                     style = MaterialTheme.typography.titleSmall,
                     color = MaterialTheme.colorScheme.primary
                 )
